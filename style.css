@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: white;
+    overflow: hidden;
+}
+
+#time{
+    text-align: center;
+    font-family: Roboto Slab;
+    color: #e62f2f;
+    font-size: 9rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+#timeDiv{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -999;
+}
+
